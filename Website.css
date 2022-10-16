@@ -1,0 +1,40 @@
+* {
+    box-sizing:border-box;
+}
+.row {
+    display: flex;
+    margin-top: 10px;
+    position: absolute;
+    left: 30px;
+}
+.column {
+    padding-right:725px;
+    right:30px;
+}
+
+body {
+    color: rgb(243, 45, 1);font-style:unset;
+    background-image: url("Assets/Image/LPUbackground.jpeg");
+    background-size:32cm;
+    background-repeat:no-repeat;
+}
+p {
+    color: black;background-color:rgb(242, 211, 164);
+    border-style: double;
+    text-align:left;
+    margin-top:300px ;
+}
+video {
+    position:absolute;margin-left: 9.1cm;
+    width: 12cm;
+    border-style: solid;margin-top: 50px;
+}
+audio {
+    position: absolute;left:50px;
+    width: 6cm;border-top-style: dotted;border-bottom-style:double ;border-right-style: groove;border-left-style: ridge;
+    margin-top: 25px
+}
+h1 {
+    text-align: center; color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
