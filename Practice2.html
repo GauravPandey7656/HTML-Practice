@@ -6,24 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>I Love HTML</title>
 <style>
-body {
-    background-color: rgb(184, 238, 47);
-  }
-  
-
+body {    
+    color: rgb(243, 45, 1);font-style:unset;
+    background-image: url("Assets/Image/LPUbackground.jpeg");
+    background-size:20cm;
+    background-repeat:no-repeat;
+}
+p {
+    color: black;background-color:rgb(242, 211, 164);
+    border-style: double;
+    text-align:left;
+    margin-top:150px ;
+}
+video {
+    position:absolute;left: 7cm;
+    width: 5cm;
+    border-style: solid;margin-top: 50px;
+}
+img {
+    width: 100px;
+    position: absolute;margin-top: 55px;
+}
+audio {
+    position: absolute;left:50px;
+    width: 6cm;border-top-style: dotted;border-bottom-style:double ;border-right-style: groove;border-left-style: ridge;
+    margin-top: 25px
+}
 </style>
 </head>
 <body>
-<video height="450" width="1000" controls>
-    <source src="/Assets/videoplayback.mp4">
-</video>
-<audio controls >
+    <h1 align="center" style="color:brown;background-color:rgba(0, 213, 128, 0.75);font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"><i>LOVELY PROFESSIONAL University</i></h1>
+    <video autoplay loop controls>
+        <source src="/Assets/videoplayback.mp4">
+    </video>
+    <img src="Assets/Image/Lovely_Professional_University_logo.png">
+    <h2 align="center"><a href="https://www.lpu.in/">Lovely Profession University</a></h2>
+    <p>Hello, My Name is Gaurav Pandey <br>Nice to meet you....</p>
+
+<audio autoplay loop hidden controls >
     <source src="/Assets/bellaciao.mp3.mp3">
 
 </audio>
-
-<p> How are you</p>
-
-
 </body>
 </html>
