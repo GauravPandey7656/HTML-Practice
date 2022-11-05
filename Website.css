@@ -1,17 +1,12 @@
-* {
-    box-sizing:border-box;
-}
-.row {
-    display: flex;
-    margin-top: 10px;
+.logo1{
+    right: 1cm ;width: 3.5cm;
     position: absolute;
-    left: 30px;
 }
-.column {
-    padding-right:725px;
-    right:30px;
+.logo2{
+    left: 1cm;  width: 3.5cm;
+    position: absolute;
+    
 }
-
 body {
     color: rgb(243, 45, 1);font-style:unset;
     background-image: url("Assets/Image/LPUbackground.jpeg");
