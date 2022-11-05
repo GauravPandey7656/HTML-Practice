@@ -1,0 +1,23 @@
+#p1{
+    margin-top: 25px;
+    color: brown;background-color: bisque;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#p2{
+    margin-top: 25px;
+    color:red;background-color:chartreuse;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.p3{
+    color:aqua ;background-color: blueviolet;
+    text-align: center;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    background-color: aquamarine;
+}
+body{
+    background-color: antiquewhite;
+}
