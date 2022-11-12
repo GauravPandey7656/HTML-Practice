@@ -9,7 +9,9 @@
 }
 body {
     color: rgb(243, 45, 1);font-style:unset;
+    opacity:0.5;
     background-image: url("Assets/Image/LPUbackground.jpeg");
+    background-attachment: local;
     background-size:32cm;
     background-repeat:no-repeat;
 }
