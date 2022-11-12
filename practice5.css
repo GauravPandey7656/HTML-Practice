@@ -1,0 +1,10 @@
+.p1{
+    border: 2px solid;
+    border-radius: 50%;
+    border-color: rgb(255, 153, 127);
+    background-color: aqua;
+    padding: 0.5cm;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+}
