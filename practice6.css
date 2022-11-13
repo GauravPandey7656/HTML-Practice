@@ -1,0 +1,17 @@
+td,th{
+    border: 1px solid red;
+    text-align: center;
+    border-radius: 2px;
+}
+table{
+    border: 1px solid red;
+}
+ul{
+    position: absolute;
+    right: 10px;
+}
+ol{
+    position: absolute;
+    left:50%;
+}
+
